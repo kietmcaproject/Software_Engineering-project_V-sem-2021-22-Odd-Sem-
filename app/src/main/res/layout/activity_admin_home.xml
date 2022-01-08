@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".AdminHome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADMIN HOME"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/searchBook"
+                android:text="Search"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/addBook"
+                android:text="Add Book"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/removeBook"
+                android:text="Remove Book"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/updateBook"
+                android:text="Update"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/issueBook"
+                android:text="Issue Book to User"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/returnBook"
+                android:text="Return Book from User"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/reissueBook"
+                android:text="Re-Issue Book"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/collect1"
+                android:text="Collect Fine"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/logOut"
+                android:text="Log Out"
+                />
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
