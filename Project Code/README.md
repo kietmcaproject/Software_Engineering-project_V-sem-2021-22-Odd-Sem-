@@ -10,15 +10,6 @@ A detailed description of this project along with the screenshots can be found [
 * [Cloud Functions](https://cloud.google.com/functions) : Used to deploy cloud scripts automatically triggered by Firebase features and HTTPS requests.
 * [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging) : Used for sending push notifications.
 
-## Contributing
-You are welcome to contribute :
-
-1. Fork it (https://github.com/rohanrao619/Library_Management_Android_App/fork)
-2. Create new branch : `git checkout -b new_feature`
-3. Commit your changes : `git commit -am 'Added new_feature'`
-4. Push to the branch : `git push origin new_feature`
-5. Submit a pull request !
-
 ## Future Work
 * UI Improvement and Optimization
 * New Features/Functionalities
