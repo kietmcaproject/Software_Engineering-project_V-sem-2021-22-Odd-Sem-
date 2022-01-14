@@ -1,0 +1,134 @@
+{
+  "JAVASCRIPT": [
+    {
+      "ques": "what is the array?",
+      "opt1": "homogeneous\t",
+      "opt2": "heterogeneous",
+      "opt3": "non-linear",
+      "opt4": "not support direct addressing",
+      "ans": "homogeneous\t",
+      "id": 1
+    },
+    {
+      "ques": "Where meet students",
+      "opt1": "Hospital",
+      "opt2": "College",
+      "opt3": "Station",
+      "opt4": "Police Station",
+      "ans": "College",
+      "id": 2
+    },
+    {
+      "ques": "what is html",
+      "opt1": "english",
+      "opt2": "hyper tention",
+      "opt3": "hyper text markup language",
+      "opt4": "nothing",
+      "ans": "hyper text markup language",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "ques": " What is required in each C program?",
+      "opt1": "The program must have at least one function..",
+      "opt2": "The program does not require any function.",
+      "opt3": "Input data.",
+      "opt4": "Output data.",
+      "ans": " (a) The program must have at least one function."
+    },
+    {
+      "id": 5,
+      "ques": " Which of the following comment is correct when a macro definition includes arguments?",
+      "opt1": "The opening parenthesis should immediately follow the macro name.",
+      "opt2": "There should be at least one blank between the macro name and the opening parenthesis.",
+      "opt3": "There should be only one blank between the macro name and the opening parenthesis.",
+      "opt4": "All the above comments are correct.",
+      "ans": " (a) The opening parenthesis should immediately follow the macro name."
+    },
+    {
+      "id": 6,
+      "ques": " What is the output of this statement 'printf('%d', (a++))'?",
+      "opt1": "The opening parenthesis should immediately follow the macro name.",
+      "opt2": "There should be at least one blank between the macro name and the opening parenthesis.",
+      "opt3": "There should be only one blank between the macro name and the opening parenthesis.",
+      "opt4": "All the above comments are correct.",
+      "ans": " (a) The opening parenthesis should immediately follow the macro name."
+    },
+    {
+      "id": 7,
+      "ques": " Which of the following comment is correct when a macro definition includes arguments?",
+      "opt1": "The value of (a + 1).",
+      "opt2": "TThe current value of a.",
+      "opt3": "Error message.",
+      "opt4": "Garbage.",
+      "ans": " (b) The current value of 'a'."
+    }
+  ],
+  "HTML": [
+    {
+      "id": 1,
+      "ques": " HTML stands for rohit-",
+      "opt1": "HighText Machine Language",
+      "opt2": "HyperText and links Markup Language",
+      "opt3": "HyperText Markup Language",
+      "opt4": "None of these",
+      "ans": "(C)HyperText Markup Language"
+    },
+    {
+      "id": 2,
+      "que": " The correct sequence of HTML tags for starting a webpage is -",
+      "op1": "Head, Title, HTML, body",
+      "op2": "HTML, Body, Title, Head",
+      "op3": "HTML, Head, Title, Body",
+      "op4": "HTML, Head, Title, Body",
+      "ans": " (d) HTML, Head, Title, Body"
+    },
+    {
+      "id": 3,
+      "que": "  <input> is -",
+      "op1": "a format tag.",
+      "op2": "an empty tag.",
+      "op3": "All of the above",
+      "op4": "None of the above",
+      "ans": " (b) an empty tag"
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "que": " What is required in each C program?",
+      "op1": "The program must have at least one function..",
+      "op2": "The program does not require any function.",
+      "op3": "Input data.",
+      "op4": "Output data.",
+      "ans": " (a) The program must have at least one function."
+    },
+    {
+      "id": 2,
+      "que": " Which of the following comment is correct when a macro definition includes arguments?",
+      "op1": "The opening parenthesis should immediately follow the macro name.",
+      "op2": "There should be at least one blank between the macro name and the opening parenthesis.",
+      "op3": "There should be only one blank between the macro name and the opening parenthesis.",
+      "op4": "All the above comments are correct.",
+      "ans": " (a) The opening parenthesis should immediately follow the macro name."
+    },
+    {
+      "id": 3,
+      "que": " What is the output of this statement 'printf('%d', (a++))'?",
+      "op1": "The opening parenthesis should immediately follow the macro name.",
+      "op2": "There should be at least one blank between the macro name and the opening parenthesis.",
+      "op3": "There should be only one blank between the macro name and the opening parenthesis.",
+      "op4": "All the above comments are correct.",
+      "ans": " (a) The opening parenthesis should immediately follow the macro name."
+    },
+    {
+      "id": 4,
+      "que": " Which of the following comment is correct when a macro definition includes arguments?",
+      "op1": "The value of (a + 1).",
+      "op2": "TThe current value of a.",
+      "op3": "Error message.",
+      "op4": "Garbage.",
+      "ans": " (b) The current value of 'a'."
+    }
+  ]
+}
