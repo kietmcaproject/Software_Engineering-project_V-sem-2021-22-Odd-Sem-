@@ -1,0 +1,45 @@
+From 6b7c226f817c3cd01ac0316e37c0e0cc10430def Mon Sep 17 00:00:00 2001
+From: rohitsengar001 <rohitsengar001@gmail.com>
+Date: Fri, 4 Jun 2021 15:41:23 +0530
+Subject: postapi successfully implemented apart of exception handling
+
+
+diff --git a/api/getapi.php b/api/getapi.php
+new file mode 100644
+index 0000000..1b9bb11
+--- /dev/null
++++ b/api/getapi.php
+@@ -0,0 +1,20 @@
++<?php
++include '/xampp/htdocs/project/html_header.php';
++include '/xampp/htdocs/project/connection.php';
++if ($conn->connect_error)
++    die("connection failed" . $conn->connect_error);
++else {
++    $sql = "SELECT * FROM test";
++    $result = $conn->query($sql);
++    if ($result->num_rows > 0) {
++        // output data of each row
++        // $output=mysqli_fetch_all($result,MYSQLI_ASSOC);procedural way
++        $output=$result->fetch_all(MYSQLI_ASSOC);//*@param object oriental way :MYSQLI_ASSOC=>IS CONSTANT WHICH HAVE VALUE 1
++        
++        echo json_encode($output);
++    
++    } else {
++        echo json_encode(array('message'=>'No record found','status'=>false));
++    }
++    $conn->close();
++}
+diff --git a/html_header.php b/html_header.php
+new file mode 100644
+index 0000000..9706b40
+--- /dev/null
++++ b/html_header.php
+@@ -0,0 +1,6 @@
++<?php
++    header('Content-Type:application/json');
++    header('Access-Control-Allow-Method:GET');
++    header('Access-Control-Allow-Origin:*');
++    header('Access-Control-Allow-Headers:Content-Type,Access-Control-Allow-Method,Access-Control-Allow-Origin');
++?>
+\ No newline at end of file
