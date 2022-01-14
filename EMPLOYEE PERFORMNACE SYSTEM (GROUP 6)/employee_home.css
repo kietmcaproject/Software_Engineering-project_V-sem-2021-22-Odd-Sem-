@@ -1,0 +1,177 @@
+body {
+
+    background: #91a716;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: left;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+button {
+    float: right;
+    background: rgb(35, 174, 202);
+    background-color: forestgreen;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 55px;
+    margin-right: 10px;
+    width: 100%;
+    border: white;
+}
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 38px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+div.employee_info_details {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  width: 168px;
+}
+div.rate_ur_self {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  width: 168px;
+}
+
+td{
+padding: 7px;
+}
+input{
+height: 30px;
+border-radius: 10px;
+border: none;
+
+}
+input:focus{
+outline: none;
+border: 1px solid forestgreen;
+}
+input:hover{
+box-shadow: 5px 5px 5px black;
+}
+
+.button{
+background-color: forestgreen;
+color:#fff;
+border: none;
+padding: 7px
+}
+
+.button:hover {
+cursor: pointer;
+box-shadow: 5px 5px 5px red;
+}
+h2{
+background-color: forestgreen;
+width: 750%;
+color: white;
+padding: 10px;
+text-align: left;
+}
+
+h4{
+background-color: forestgreen;
+width: 750%;
+color: red;
+padding: 10px;
+text-align: left;
+}
+h3{
+background-color: forestgreen;
+width: 750%;
+color: yellow;
+padding: 10px;
+text-align: left;
+}
